@@ -1,62 +1,54 @@
-/*
-
-DIGITAL TREND
-
-https://templatemo.com/tm-538-digital-trend
-
-*/
-  
   @font-face {
-      font-family: 'Plain-Regular';
-      src: url('../fonts/Plain-Regular.woff2') format('woff2'),
-          url('../fonts/Plain-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
+    font-family: 'Plain-Regular';
+    src: url('../fonts/Plain-Regular.woff2') format('woff2'),
+      url('../fonts/Plain-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
   }
 
   @font-face {
-      font-family: 'Plain-Light';
-      src: url('../fonts/Plain-Light.woff2') format('woff2'),
-          url('../fonts/Plain-Light.woff') format('woff');
-      font-weight: bold;
-      font-style: normal;
+    font-family: 'Plain-Light';
+    src: url('../fonts/Plain-Light.woff2') format('woff2'),
+      url('../fonts/Plain-Light.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
   }
 
   @font-face {
-      font-family: 'Plain-Bold';
-      src: url('../fonts/Plain-Bold.woff2') format('woff2'),
-          url('../fonts/Plain-Bold.woff') format('woff');
-      font-weight: bold;
-      font-style: normal;
+    font-family: 'Plain-Bold';
+    src: url('../fonts/Plain-Bold.woff2') format('woff2'),
+      url('../fonts/Plain-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
   }
 
   :root {
-    --primary-color:        #057a8d;
-    --secondary-color:      #f1c111;
-    --white-color:          #ffffff;
-    --dark-color:           #171819;
-    --project-bg:           #f0f8ff;
-    --menu-bg:              #0c8195;
+    --primary-color: #057a8d;
+    --secondary-color: #f1c111;
+    --white-color: #ffffff;
+    --dark-color: #171819;
+    --project-bg: #f0f8ff;
+    --menu-bg: #0c8195;
 
-    --title-color:          #15141a;
-    --gray-color:           #909090;
-    --link-color:           #404040;
-    --p-color:              #666262;
+    --title-color: #15141a;
+    --gray-color: #909090;
+    --link-color: #404040;
+    --p-color: #666262;
 
-    --base-font-family:     'Plain-Light', sans-serif;
-    --title-font-family:    'Plain-Regular', sans-serif;
-    --font-bold-family:     'Plain-Bold', sans-serif;
-    --font-weight-bold:     bold;
+    --base-font-family: 'Plain-Light', sans-serif;
+    --title-font-family: 'Plain-Regular', sans-serif;
+    --font-bold-family: 'Plain-Bold', sans-serif;
+    --font-weight-bold: bold;
 
-    --h1-font-size:         42px;
-    --h2-font-size:         32px;
-    --h3-font-size:         24px;
-    --p-font-size:          18px;
-    --base-font-size:       16px;
-    --menu-font-size:       14px;
+    --h1-font-size: 42px;
+    --h2-font-size: 32px;
+    --h3-font-size: 24px;
+    --p-font-size: 18px;
+    --base-font-size: 16px;
+    --menu-font-size: 14px;
 
-    --border-radius-large:  100px;
-    --border-radius-small:  5px;
+    --border-radius-large: 100px;
+    --border-radius-small: 5px;
   }
 
   body {
@@ -69,7 +61,12 @@ https://templatemo.com/tm-538-digital-trend
      TYPOGRAPHY              
   -----------------------------------------*/
 
-  h1,h2,h3,h4,h5,h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--title-font-family);
     line-height: inherit;
   }
@@ -104,7 +101,7 @@ https://templatemo.com/tm-538-digital-trend
     line-height: 1.5em;
   }
 
-  b, 
+  b,
   strong {
     letter-spacing: 0;
     color: var(--secondary-color);
@@ -131,11 +128,11 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   blockquote {
-    border-left: 5px solid rgba(0,0,0,0.05);
+    border-left: 5px solid rgba(0, 0, 0, 0.05);
     display: block;
     margin: 42px 0;
     padding: 14px 22px;
-    color: rgba(0,0,0,0.5);
+    color: rgba(0, 0, 0, 0.5);
   }
 
 
@@ -155,9 +152,9 @@ https://templatemo.com/tm-538-digital-trend
     background: var(--white-color);
     color: var(--primary-color);
     border-color: transparent;
-	transition: all .3s ease;
+    transition: all .3s ease;
   }
-  
+
   .custom-btn:hover,
   .custom-btn:focus {
     background: var(--dark-color);
@@ -189,8 +186,8 @@ https://templatemo.com/tm-538-digital-trend
     text-decoration: none;
   }
 
-  a:hover, 
-  a:active, 
+  a:hover,
+  a:active,
   a:focus {
     color: var(--secondary-color);
     outline: none;
@@ -205,6 +202,7 @@ https://templatemo.com/tm-538-digital-trend
   .section-padding {
     padding: 8em 0;
   }
+
   .section-padding-half {
     padding: 4em 0;
   }
@@ -231,7 +229,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .navbar-brand {
     color: var(--white-color);
-    font-size: var(--h2-font-size);
+    font-size: 32px;
   }
 
   .nav-link {
@@ -423,10 +421,10 @@ https://templatemo.com/tm-538-digital-trend
     background: var(--gray-color);
     width: 50px;
     height: 3px;
-    margin:  35px 5px;
+    margin: 35px 5px;
   }
 
-  .owl-theme .owl-dots .owl-dot.active span, 
+  .owl-theme .owl-dots .owl-dot.active span,
   .owl-theme .owl-dots .owl-dot:hover span {
     background: var(--secondary-color);
   }
@@ -498,7 +496,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .blog-header-info {
-    background: linear-gradient(transparent,rgba(0,0,0,0.95));
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.95));
     position: absolute;
     right: 0;
     left: 0;
@@ -630,6 +628,7 @@ https://templatemo.com/tm-538-digital-trend
     .about-info h2 {
       max-width: 70%;
     }
+
   }
 
   @media screen and (min-width: 991px) {
@@ -642,8 +641,13 @@ https://templatemo.com/tm-538-digital-trend
 
   @media screen and (max-width: 991px) {
 
+    .navbar-brand {
+      color: var(--white-color);
+      font-size: 22px;
+    }
+
     .hero {
-      padding-top: 14em;
+      padding-top: 4em;
     }
 
     .hero-text {
@@ -667,8 +671,8 @@ https://templatemo.com/tm-538-digital-trend
       margin: 1em 0;
     }
 
-    .copyright-text, 
-    .footer-link, 
+    .copyright-text,
+    .footer-link,
     .site-footer .social-icon {
       margin-top: 3em;
       padding: 0;
@@ -679,7 +683,7 @@ https://templatemo.com/tm-538-digital-trend
   @media screen and (max-width: 767px) {
 
     h1 {
-      font-size: 36px;
+      font-size: 30px;
     }
 
     h2 {
@@ -696,18 +700,22 @@ https://templatemo.com/tm-538-digital-trend
       margin: 0 auto;
     }
 
-    .footer-link, 
+    .footer-link,
     .site-footer .social-icon {
       margin-top: 1em;
-    }
-
-    .copyright-text {
-      margin: 2.5em 0 1em 0;
     }
 
     .footer-link li {
       margin-left: 0;
     }
+
+    .site-footer {
+      background: var(--dark-color);
+      padding: 1em 0 6em 0;
+    }
+
+    .copyright-text {
+      margin: 1.5em 0 1em 0;
+      font-size: smaller;
+    }
   }
-
-

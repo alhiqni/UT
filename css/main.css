@@ -1,6 +1,7 @@
- html{
+ html {
      scroll-behavior: smooth;
  }
+
  .foto1 {
      background: url('../images/UT/Arumi.jpg');
  }
@@ -24,4 +25,60 @@
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
+ }
+
+ img.example-image {
+     width: 300px;
+     margin: 10px;
+ }
+
+ .copyright {
+     margin: auto;
+ }
+
+ #footer iframe {
+     height: 300px;
+     width: 350px;
+ }
+
+ @media screen and (max-width: 991px) {
+     #footer iframe {
+         height: 300px;
+         width: 450px;
+     }
+
+ }
+
+ @media screen and (max-width: 767px) {
+
+     .navbar-brand {
+         font-size: 22px !important;
+     }
+
+     video {
+         width: 245px;
+         height: 140px;
+     }
+
+     .pp-video {
+         height: 300px;
+     }
+
+     img.example-image {
+         width: 102px;
+         margin: 5px 2px;
+     }
+
+     button.btn.btn-light {
+         font-size: 10px;
+     }
+
+     #footer iframe {
+         display: none;
+     }
+
+     input#nama,
+     input#email {
+         font-size: 10px;
+     }
  }
