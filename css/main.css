@@ -1,0 +1,27 @@
+ html{
+     scroll-behavior: smooth;
+ }
+ .foto1 {
+     background: url('../images/UT/Arumi.jpg');
+ }
+
+ .foto2 {
+     background: url('../images/UT/Devara.jpg');
+ }
+
+ .foto3 {
+     background: url('../images/UT/Wiranto.png');
+ }
+
+ .foto4 {
+     background: url('../images/UT/Zainul.jpg');
+ }
+
+ .carousel-inner .foto-profil {
+     height: 200px;
+     width: 200px;
+     border-radius: 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
